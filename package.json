@@ -19,9 +19,9 @@
     "url": "https://github.com/anvaka/ngraph.forcelayout4d"
   },
   "dependencies": {
-    "merge": "^1.2.0",
     "ngraph.expose": "0.0.0",
     "ngraph.forcelayout": "0.0.20",
+    "ngraph.merge": "0.0.1",
     "ngraph.random": "0.0.1"
   }
 }
