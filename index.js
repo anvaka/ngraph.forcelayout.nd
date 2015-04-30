@@ -1,7 +1,5 @@
 /**
- * This module is basically a copy of 3d simulator (ngraph.forcelayout4d)
- * I'm still not sure how to generalize this to multidimensional case without
- * affecting performance.
+ * N-dimensional force based graph layout
  */
 module.exports = createLayout;
 createLayout.get2dLayout = require('ngraph.forcelayout');
