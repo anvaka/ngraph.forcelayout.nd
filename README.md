@@ -14,9 +14,27 @@ graph.addLink(1, 2);
 var createLayout = require('ngraph.forcelayout.nd');
 // to create 2d layout:
 var layout2d = createLayout(graph, {
+  dimension: 2
 });
 
+// to create 4d layout:
+var layout4d = createLayout(graph, {
+  dimension: 4
+});
+
+// Once you have layout, call it iteratively:
+layout2d.step();
+
+// You can then get positions of each node:
+graph.forEachNode(printPosition);
+
+function printPosition(node) {
+  var pos = layout2d.getNodePosition(node.id);
+  // pos[0], pos[1] - will represent x, y coordinates of a node.
+}
+
 ```
+
 # install
 
 With [npm](https://npmjs.org) do:
