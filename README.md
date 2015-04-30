@@ -40,7 +40,7 @@ function printPosition(node) {
 With [npm](https://npmjs.org) do:
 
 ```
-npm install ngraph.forcelayout4d
+npm install ngraph.forcelayout.nd
 ```
 
 # license

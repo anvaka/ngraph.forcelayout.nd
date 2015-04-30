@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvaka/ngraph.forcelayout4d"
+    "url": "https://github.com/anvaka/ngraph.forcelayout.nd"
   },
   "dependencies": {
     "ngraph.expose": "0.0.0",
