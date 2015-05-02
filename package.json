@@ -23,5 +23,10 @@
     "ngraph.forcelayout": "0.0.20",
     "ngraph.merge": "0.0.1",
     "ngraph.random": "0.0.1"
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "ngraph.generators": "0.0.15",
+    "tap": "^0.7.1"
   }
 }
