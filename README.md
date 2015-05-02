@@ -2,7 +2,10 @@
 
 Experimental N-dimensional force based graph layout. It supports graph layout
 in multidimensional spaces (2+), using higher dimensional orthant trees (similar
-to quadtrees, but generalized to multidimensional spaces).
+to quadtrees, but generalized to multidimensional spaces). While this layout is
+very generic and supports higher dimensions, it is still much slower than
+specialized [2d](https://github.com/anvaka/ngraph.forcelayout) and
+[3d](https://github.com/anvaka/ngraph.forcelayout3d) layouts.
 
 # usage
 
