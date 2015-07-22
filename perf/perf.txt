@@ -1,17 +1,13 @@
-> npm version
-{ http_parser: '1.0',
-  node: '0.10.38',
-  v8: '3.14.5.9',
-  ares: '1.9.0-DEV',
-  uv: '0.10.36',
-  zlib: '1.2.8',
-  modules: '11',
+{ 'ngraph.forcelayout.nd': '0.1.0',
+  npm: '2.10.1',
+  http_parser: '2.3',
+  modules: '14',
+  node: '0.12.4',
   openssl: '1.0.1m',
-  npm: '1.4.28',
-  'ngraph.forcelayout.nd': '0.1.0' }
-
-> node perf/index.js
-Run 2d layout x 10.98 ops/sec ±4.77% (32 runs sampled)
-Run 3d layout x 7.43 ops/sec ±3.15% (23 runs sampled)
-Run 4d layout x 5.03 ops/sec ±1.51% (17 runs sampled)
+  uv: '1.5.0',
+  v8: '3.28.71.19',
+  zlib: '1.2.8' }
+Run 2d layout x 13.07 ops/sec ±5.59% (37 runs sampled)
+Run 3d layout x 8.66 ops/sec ±3.46% (26 runs sampled)
+Run 4d layout x 5.84 ops/sec ±1.64% (19 runs sampled)
 Fastest is Run 2d layout

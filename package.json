@@ -4,7 +4,8 @@
   "description": "Experimental N-dimensional force based graph layout",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js",
+    "perf": "npm version && node perf/index.js"
   },
   "keywords": [
     "ngraph",
@@ -20,7 +21,7 @@
   },
   "dependencies": {
     "ngraph.expose": "0.0.0",
-    "ngraph.forcelayout": "0.0.20",
+    "ngraph.forcelayout": "0.0.21",
     "ngraph.merge": "0.0.1",
     "ngraph.random": "0.0.1"
   },
