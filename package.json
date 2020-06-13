@@ -1,6 +1,6 @@
 {
   "name": "ngraph.forcelayout.nd",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Experimental N-dimensional force based graph layout",
   "main": "index.js",
   "scripts": {
