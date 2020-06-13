@@ -20,14 +20,14 @@
     "url": "https://github.com/anvaka/ngraph.forcelayout.nd"
   },
   "dependencies": {
-    "ngraph.expose": "0.0.0",
-    "ngraph.forcelayout": "0.0.21",
-    "ngraph.merge": "0.0.1",
-    "ngraph.random": "0.0.1"
+    "ngraph.expose": "1.0.0",
+    "ngraph.forcelayout": "1.0.0",
+    "ngraph.merge": "1.0.0",
+    "ngraph.random": "1.0.0"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
-    "ngraph.generators": "0.0.15",
-    "tap": "^0.7.1"
+    "ngraph.generators": "19.0.0",
+    "tap": "^14.10.7"
   }
 }
