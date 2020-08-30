@@ -21,13 +21,14 @@
   },
   "dependencies": {
     "ngraph.expose": "1.0.0",
-    "ngraph.forcelayout": "1.0.0",
+    "ngraph.forcelayout": "1.2.0",
     "ngraph.merge": "1.0.0",
     "ngraph.random": "1.0.0"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "ngraph.generators": "19.0.0",
+    "ngraph.graph": "^19.1.0",
     "tap": "^14.10.7"
   }
 }
