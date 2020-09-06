@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ngraph.forcelayout": "^3.0.0"
+  }
+}

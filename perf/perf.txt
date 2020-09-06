@@ -17,8 +17,10 @@
   v8: '8.1.307.31-node.33',
   zlib: '1.2.11'
 }
-Real 2d layout x 47.79 ops/sec ±3.48% (62 runs sampled)
-Run 2d layout x 14.07 ops/sec ±4.41% (40 runs sampled)
-Run 3d layout x 7.57 ops/sec ±6.82% (22 runs sampled)
-Run 4d layout x 4.75 ops/sec ±4.46% (16 runs sampled)
+Real 2d layout x 48.19 ops/sec ±5.42% (63 runs sampled)
+Real 3d layout x 30.85 ops/sec ±5.94% (54 runs sampled)
+Real 4d layout x 21.35 ops/sec ±6.39% (40 runs sampled)
+Run 2d layout x 13.90 ops/sec ±6.96% (39 runs sampled)
+Run 3d layout x 7.15 ops/sec ±7.89% (23 runs sampled)
+Run 4d layout x 5.00 ops/sec ±6.08% (16 runs sampled)
 Fastest is Real 2d layout
